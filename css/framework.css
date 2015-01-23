@@ -1,0 +1,142 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+
+/* Framework Stylesheet */
+.dash-container {
+  width: 960px;
+
+}
+.shadow-container {
+  width: 970px;
+}
+
+.body-container {
+  width: 940px;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-box {
+  background: #208ee5;
+  height: 44px;
+}
+
+.dash {
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+.dashboard-box {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #33cc66;
+  height: 75px;
+}
+
+.search-box {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #33cc66;
+  height: 75px;
+}
+
+.shadow {
+  height: 15px;
+  padding: 0px;
+}
+
+.announcement-box {
+  border: 1px solid gray;
+  border-right: 0px;
+  height: 50px;
+  background-color: #fff;
+
+
+}
+
+.nav-bg {
+  padding:0px;
+  background: url("../images/bg-top-left.png") repeat;
+}
+
+.lorem-box {
+  border: 1px solid gray;
+  border-right: 0px;
+  height: 50px;
+  background-color: #fff;
+
+}
+
+.arrows {
+  border: 1px solid black;
+  height: 50px;
+  background-color: #fff;
+  padding-left: 14px;
+  padding-right: 14px;
+
+
+}
+
+.tasks-box {
+  border: 1px solid black;
+  height: 300px;
+  background-color: #fff;
+}
+
+.recs {
+  border: 1px solid black;
+  height: 570px;
+  background-color: #fff;
+
+}
+
+.analytics {
+  border: 1px solid black;
+  height: 405px;
+  background-color: #fff;
+
+}
+
+.cust {
+  border: 1px solid black;
+  height: 270px;
+  background-color: #fff;
+
+}
+
+.know {
+  border: 1px solid #dddddd;
+  height: 195px;
+  background-color: #fff;
+
+}
+
+.bodyboxes {
+  background: #2498f4;
+  height: 220px;
+  margin-bottom: 49px;
+}
+
+.bottlinks {
+  background: #f6f6f6;
+  border-right: 1px solid #dddddd;
+  height: 51px;
+
+}
+
+.cooper {
+  background: #f6f6f6;
+  border-right: 1px solid #dddddd;
+  height: 51px;
+}
+
+.footinfo {
+  background: #f6f6f6;
+  border-right: 1px solid #dddddd;
+  height: 51px;
+}
+
+.footer {
+  width: 100%;
+}

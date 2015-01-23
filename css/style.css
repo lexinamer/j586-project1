@@ -1,0 +1,228 @@
+/* Main Style */
+body {
+  font-family: "myriad pro";
+  font-size: 12px;
+  color: #333;
+  background-color: #fff;
+
+}
+
+p {
+  padding-top: 7px;
+  margin-bottom: 0px;
+
+}
+
+h3 {
+  color: #2498f4;
+  font-size: 2.7em;
+}
+.stream {
+  color: #fff;
+  font-size: 1.5em;
+  padding-left: 128px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tasks {
+  padding-bottom: 40px;
+}
+
+.center-block {
+  position: absolute;
+
+}
+
+.mini {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dashboard {
+  color: #fff;
+  font-size: 36px;
+  padding-left: 27px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.searchinput {
+  height: 34px;
+  width: 260px;
+  border-radius: 5px;
+  border: 1px solid #33cc66;
+  float: right;
+  background: #fff;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mini {
+  color: #fff;
+  font-size: 14px;
+}
+
+.list-inline {
+  text-align: center;
+  margin: 0px;
+
+}
+
+.announcement {
+  color: #fe7f13;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lorem {
+  color: #777777;
+  font-size: 14px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle-btn-left {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle-btn-right {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-table {
+  margin-left: 125px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-links {
+  padding: 1px 10px 1px 10px;
+  color:#b0b0b0;
+  border-right: 1px solid #b0b0b0;
+  font-size: 13px;
+
+}
+
+h4 {
+  padding-left: 22px;
+  margin: 0px;
+  color: #2498f2;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+span {
+  color:#7f7f7f;
+  font-size: 13px;
+  font-weight: normal;
+
+}
+
+img.social {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 40px;
+}
+
+img.avatar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  width: 40px;
+}
+
+.row-centered {
+  text-align:center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.boxy-centered {
+  padding: 20px;
+  width: 280px;
+  height: 160px;
+  border-radius: 5px;
+  background: #fff;
+  display:inline-block;
+  float:none;
+
+}
+
+.know-centered{
+  padding: 20px;
+  width: 560px;
+  height: 140px;
+  border-radius: 5px;
+  background: #2498f4;
+  display:inline-block;
+  float:none;
+  text-align: left;
+}
+
+.glyphicon-search {
+  float: right;
+  font-size: 22px;
+  padding-right: 5px;
+  color: #2498f4;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 88%;
+}
+
+.table-tasks {
+  width: 100%;
+}
+
+td.tasks-data {
+  height: 55px;
+  width: 45px;
+  padding-top: 0px;
+}
+
+.task-header {
+  height: 55px;
+  font-size: 32px;
+  color: #2498f4;
+}
+
+
+.btn-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 0px;
+    background: #32cc66;
+    overflow:hidden;
+    text-align: center;
+}
+
+.tasks-text {
+  font-size: 21px;
+  color: #2498f4;
+}
