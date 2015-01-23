@@ -15,7 +15,12 @@ p {
 
 h3 {
   color: #2498f4;
-  font-size: 2.7em;
+  font-size: 2.3em;
+}
+
+h5 {
+  color: #2498f4;
+  font-size: 1em;
 }
 .stream {
   color: #fff;
@@ -27,7 +32,8 @@ h3 {
 }
 
 .tasks {
-  padding-bottom: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .center-block {
