@@ -20,8 +20,27 @@ h3 {
 
 h5 {
   color: #2498f4;
-  font-size: 1em;
+  font-size: 1.6em;
 }
+
+h6 {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h2 {
+  color: #2498f4;
+  font-size: 1.2em;
+  display: inline;
+
+}
+
+.col-md-7 {
+  padding: 0px;
+}
+
 .stream {
   color: #fff;
   font-size: 1.5em;
@@ -31,14 +50,33 @@ h5 {
   transform: translateY(-50%);
 }
 
-.tasks {
-  padding-bottom: 15px;
-  padding-top: 15px;
+.settings-icon {
+  padding-top: 22px;
 }
 
 .center-block {
   position: absolute;
 
+}
+
+.person-btn {
+  width: 60px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.number-btn {
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  background: #33cc66;
+  text-align: center;
+}
+
+.number {
+  color: #fe7f13;
+  font-size: 1.4em;
 }
 
 .mini {
@@ -54,7 +92,10 @@ h5 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
 
+.col-md-3 {
+  padding-top: 5px;
 }
 
 .searchinput {
