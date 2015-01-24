@@ -25,6 +25,7 @@ h5 {
 
 h6 {
   color: #fff;
+  margin-top: 8px;
   position: relative;
   top: 53%;
   transform: translateY(-50%);
@@ -62,8 +63,9 @@ h2 {
 .person-btn {
   width: 60px;
   height: 30px;
-  border: 1px solid gray;
+  border: 1px solid #dddddd;
   border-radius: 4px;
+  text-align: center;
 }
 
 .number-btn {
@@ -75,8 +77,17 @@ h2 {
 }
 
 .number {
-  color: #fe7f13;
-  font-size: 1.4em;
+  color: #2498f4;
+  font-size: 1.2em;
+  float: right;
+  padding-right: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.person-small {
+  padding-top: 4px;
 }
 
 .mini {
@@ -96,6 +107,7 @@ h2 {
 
 .col-md-3 {
   padding-top: 5px;
+  padding-left: 10px;
 }
 
 .searchinput {
