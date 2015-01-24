@@ -26,7 +26,7 @@ h5 {
 h6 {
   color: #fff;
   position: relative;
-  top: 50%;
+  top: 53%;
   transform: translateY(-50%);
 }
 
@@ -68,8 +68,8 @@ h2 {
 
 .number-btn {
   border-radius: 50%;
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   background: #33cc66;
   text-align: center;
 }
@@ -256,6 +256,12 @@ td.tasks-data {
   height: 55px;
   font-size: 32px;
   color: #2498f4;
+}
+
+.tasks {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
 }
 
 

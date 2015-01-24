@@ -47,7 +47,7 @@
 }
 
 .announcement-box {
-  border: 1px solid gray;
+  border: 1px solid #dddddd;
   border-right: 0px;
   height: 50px;
   background-color: #fff;
@@ -61,7 +61,7 @@
 }
 
 .lorem-box {
-  border: 1px solid gray;
+  border: 1px solid #dddddd;
   border-right: 0px;
   height: 50px;
   background-color: #fff;
@@ -69,7 +69,7 @@
 }
 
 .arrows {
-  border: 1px solid black;
+  border: 1px solid #dddddd;
   height: 50px;
   background-color: #fff;
   padding-left: 14px;
@@ -79,27 +79,30 @@
 }
 
 .tasks-box {
-  border: 1px solid black;
+  border-left: 1px solid #dddddd;
   height: 300px;
   background-color: #fff;
 }
 
 .recs {
-  border: 1px solid black;
+  border: 1px solid #dddddd;
+  border-right: 0px;
   height: 570px;
   background-color: #fff;
 
 }
 
 .analytics {
-  border: 1px solid black;
+  border: 1px solid #dddddd;
+  border-top: 0px;
   height: 405px;
   background-color: #fff;
 
 }
 
 .cust {
-  border: 1px solid black;
+  border: 1px solid #dddddd;
+  border-top: 0px;
   height: 270px;
   background-color: #fff;
 
@@ -107,6 +110,7 @@
 
 .know {
   border: 1px solid #dddddd;
+  border-top: 0px;
   height: 195px;
   background-color: #fff;
 
