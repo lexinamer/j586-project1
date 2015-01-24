@@ -127,6 +127,22 @@ h2 {
   font-size: 14px;
 }
 
+.recs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.recs-text-small {
+  font-size: .8em;
+}
+
+.recs-text {
+  font-size: 1.2em;
+  color: #777777;
+  padding-top: 0px;
+}
+
 .list-inline {
   text-align: center;
   margin: 0px;
