@@ -270,8 +270,40 @@ img.avatar {
   margin-left: 88%;
 }
 
+.glyphicon-chevron-down {
+  color: black;
+}
+
+.btn-group {
+  float: right;
+}
+
+.activity {
+  border-right: 1px solid #ccc;
+  padding: 0px 40px 35px 25px;
+}
+
+.channels {
+  padding-left: 20px;
+}
+
 .table-tasks {
   width: 100%;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.social-check{
+  padding-right: 30px;
+}
+
+.activity-text {
+  font-size: 1.2em;
+  padding-left: 7%;
+  color: #cccccc;
+
 }
 
 td.tasks-data {
