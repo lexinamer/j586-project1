@@ -100,7 +100,7 @@
 
 }
 
-.cust {
+.customer-box {
   border: 1px solid #dddddd;
   border-top: 0px;
   height: 270px;
@@ -108,7 +108,7 @@
 
 }
 
-.know {
+.know-box {
   border: 1px solid #dddddd;
   border-top: 0px;
   height: 195px;
@@ -116,7 +116,7 @@
 
 }
 
-.bodyboxes {
+.body-boxes {
   background: #2498f4;
   height: 220px;
   margin-bottom: 49px;

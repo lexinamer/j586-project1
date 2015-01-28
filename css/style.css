@@ -90,6 +90,16 @@ h2 {
   padding-top: 4px;
 }
 
+
+
+.boxy-customer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 210px;
+  height: 195px;
+  padding: 0px;
+}
+
 .mini {
   position: relative;
   top: 50%;
@@ -231,20 +241,22 @@ img.avatar {
 }
 
 .row-centered {
-  text-align:center;
+  text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .boxy-centered {
-  padding: 20px;
-  width: 280px;
-  height: 160px;
+  padding: 0px;
+  width: 284px;
+  height: 164px;
   border-radius: 5px;
   background: #fff;
   display:inline-block;
   float:none;
+  position: relative;
+  display: inline;
 
 }
 
@@ -257,6 +269,13 @@ img.avatar {
   display:inline-block;
   float:none;
   text-align: left;
+}
+
+.blue-banner {
+  width: 100%;
+  height: 50px;
+  background: #2394ee;
+
 }
 
 .glyphicon-search {
@@ -297,6 +316,7 @@ img.avatar {
 
 .social-check{
   padding-right: 30px;
+
 }
 
 .activity-text {
