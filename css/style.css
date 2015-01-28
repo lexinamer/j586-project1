@@ -198,10 +198,13 @@ h2 {
 }
 
 .footer-links {
-  padding: 1px 10px 1px 10px;
+  padding: 0px 10px 0px 10px;
   color:#b0b0b0;
   border-right: 1px solid #b0b0b0;
   font-size: 13px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 
 }
 
@@ -228,8 +231,7 @@ img.social {
   top: 50%;
   transform: translateY(-50%);
   margin-bottom: 15px;
-  margin-left: 5px;
-  width: 40px;
+  width: 16px;
 }
 
 img.avatar {
@@ -316,6 +318,7 @@ img.avatar {
 
 .social-check{
   padding-right: 30px;
+
 
 }
 
