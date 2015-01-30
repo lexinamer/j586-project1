@@ -1,11 +1,71 @@
 .icon-anayl-hover, .icon-anayl, .icon-cust-hover, .icon-cust, .icon-dash-hover, .icon-dash, .icon-mess-hover, .icon-mess, .icon-page-hover, .icon-page, .icon-prom-hover, .icon-prom, .marker{
 	background: url(../images/sprites-header.png) no-repeat;
+	display: block;
 }
 
-.icon-anayl-hover{
-	background-position: -500px -100px ;
+.icon-dash{
+	background-position: -300px 0;
 	width: 60px;
-	height: 66px;
+	height: 73px;
+	margin-right: 2em;
+}
+
+.icon-dash:hover{
+	background-position: -300px -100px ;
+	width: 60px;
+	height: 73px;
+}
+
+.icon-cust{
+	background-position: -401px 0;
+	width: 62px;
+	height: 64px;
+	margin-right: 2em;
+}
+
+.icon-cust:hover{
+	background-position: -400px -100px ;
+	width: 62px;
+	height: 64px;
+}
+
+.icon-mess{
+	background-position: -200px 0;
+	width: 60px;
+	height: 65px;
+	margin-right: 2em;
+}
+
+.icon-mess:hover{
+	background-position: -200px -101px ;
+	width: 60px;
+	height: 65px;
+}
+
+.icon-prom{
+	background-position: 0 0;
+	width: 60px;
+	height: 69px;
+	margin-right: 2em;
+}
+
+.icon-prom:hover{
+	background-position: 0 -100px ;
+	width: 60px;
+	height: 69px;
+}
+
+.icon-page{
+	background-position: -100px 0;
+	width: 60px;
+	height: 70px;
+	margin-right: 2em;
+}
+
+.icon-page:hover{
+	background-position: -100px -101px ;
+	width: 60px;
+	height: 70px;
 }
 
 .icon-anayl{
@@ -14,69 +74,15 @@
 	height: 66px;
 }
 
-.icon-cust-hover{
-	background-position: -400px -100px ;
-	width: 62px;
-	height: 64px;
-}
-
-.icon-cust{
-	background-position: -401px 0;
-	width: 62px;
-	height: 64px;
-}
-
-
-.icon-dash-hover{
-	background-position: -300px -100px ;
+.icon-anayl:hover{
+	background-position: -500px -100px ;
 	width: 60px;
-	height: 73px;
-}
-
-.icon-dash{
-	background-position: -300px 0;
-	width: 60px;
-	height: 73px;
-}
-
-.icon-mess-hover{
-	background-position: -200px -101px ;
-	width: 60px;
-	height: 65px;
-}
-
-.icon-mess{
-	background-position: -200px 0;
-	width: 60px;
-	height: 65px;
-}
-
-.icon-page-hover{
-	background-position: -100px -101px ;
-	width: 60px;
-	height: 70px;
-}
-
-.icon-page{
-	background-position: -100px 0;
-	width: 60px;
-	height: 70px;
-}
-
-.icon-prom-hover{
-	background-position: 0 -100px ;
-	width: 60px;
-	height: 69px;
-}
-
-.icon-prom{
-	background-position: 0 0;
-	width: 60px;
-	height: 69px;
+	height: 66px;
 }
 
 .marker{
 	background-position: -577px 0;
 	width: 40px;
 	height: 10px;
+	margin-left: 41em;
 }

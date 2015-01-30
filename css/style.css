@@ -117,6 +117,8 @@ h2 {
   width: 210px;
   height: 195px;
   padding: 0px;
+  margin-left: 10%;
+
 }
 
 .mini {
@@ -160,6 +162,10 @@ h2 {
   border-bottom: 1px dashed #cccccc;
 }
 
+.recs-images {
+  padding-top: 2px;
+}
+
 .recs-text-small {
   font-size: .8em;
 }
@@ -173,11 +179,13 @@ h2 {
 .list-inline {
   text-align: center;
   margin: 0px;
+  list-style-type: none;
 
 }
 
-.list-inline:hover {
-  background-position: -298 -247px;
+.list-inline a {
+  display: block;
+  background:url(sprites-header.jpg)
 
 }
 
@@ -239,11 +247,20 @@ h4 {
   transform: translateY(-50%);
 }
 
+
+h4.a {
+  color: #2498f2;
+}
+
 span {
   color:#7f7f7f;
   font-size: 13px;
   font-weight: normal;
 
+}
+
+.logout {
+  float:right;
 }
 
 img.social {
@@ -285,12 +302,31 @@ img.avatar {
   display:inline-block;
   float:none;
   position: relative;
-  display: inline;
 
 }
 
+.boxy-centered.overlay-one {
+  background: url(../images/body/boxy1.png);
+}
+
+
+.boxy-centered.overlay-two {
+  background: url(../images/body/boxy2.png);
+  height: 174px;
+
+}
+
+.boxy-centered.overlay-three {
+  background: url(../images/body/boxy3.png);
+
+}
+
+.boxy-images {
+  position: relative;
+}
+
 .know-centered{
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   width: 560px;
   height: 140px;
   border-radius: 5px;
@@ -298,6 +334,48 @@ img.avatar {
   display:inline-block;
   float:none;
   text-align: left;
+  position: relative;
+}
+
+.tab-left {
+  position: absolute;
+  padding-top: 2em;
+}
+
+.arrow-left {
+  position: absolute;
+  padding-top: 3.2em;
+}
+
+.tab-right {
+  position: absolute;
+  padding-top: 2em;
+  padding-left: 45em;
+}
+
+.arrow-right {
+  position: absolute;
+  padding-top: 3.2em;
+  padding-left: 46em;
+}
+
+.did-you-know {
+  color: #fff;
+  padding: 10px 40px 10px 40px;
+  font-size: 13px;
+}
+
+span.latin-text {
+  font-size: 15px;
+  color: #fff;
+}
+
+.contact-graph {
+  width: 195px;
+}
+
+.graph {
+  width: 419px;
 }
 
 .blue-banner {
@@ -305,6 +383,10 @@ img.avatar {
   height: 50px;
   background: #2394ee;
 
+}
+
+.channels {
+  height: 80px;
 }
 
 .glyphicon-search {
@@ -353,6 +435,12 @@ img.avatar {
 .activity-text {
   font-size: 1.2em;
   padding-left: 7%;
+  color: #cccccc;
+
+}
+
+.channels-text {
+  font-size: 1em;
   color: #cccccc;
 
 }
