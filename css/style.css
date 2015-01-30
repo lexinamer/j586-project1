@@ -23,6 +23,11 @@ h5 {
   font-size: 1.6em;
 }
 
+h5:hover {
+  color: #cccccc;
+
+}
+
 h6 {
   color: #fff;
   margin-top: 8px;
@@ -60,6 +65,11 @@ h2 {
 
 }
 
+.dash li:hover {
+  background-image: url(icon-dash-hover);
+  background-position: -300px -100px;
+}
+
 .person-btn {
   width: 60px;
   height: 30px;
@@ -74,6 +84,11 @@ h2 {
   height: 20px;
   background: #33cc66;
   text-align: center;
+
+}
+
+.number-btn:hover {
+  background: #cccccc;
 }
 
 .number {
@@ -84,6 +99,10 @@ h2 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.number:hover{
+  color: #cccccc;
 }
 
 .person-small {
@@ -101,9 +120,7 @@ h2 {
 }
 
 .mini {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 1.2em;
 }
 
 .dashboard {
@@ -159,6 +176,11 @@ h2 {
 
 }
 
+.list-inline:hover {
+  background-position: -298 -247px;
+
+}
+
 .announcement {
   color: #fe7f13;
   font-size: 14px;
@@ -192,9 +214,7 @@ h2 {
 
 .footer-table {
   margin-left: 125px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 11px;
 }
 
 .footer-links {
@@ -232,6 +252,7 @@ img.social {
   transform: translateY(-50%);
   margin-bottom: 15px;
   width: 16px;
+  margin-left: 4px;
 }
 
 img.avatar {
@@ -240,6 +261,12 @@ img.avatar {
   transform: translateY(-50%);
   float: left;
   width: 40px;
+}
+
+.nav-bg {
+  background: url(../images/header/bg-main.png) repeat-x;
+
+
 }
 
 .row-centered {
@@ -297,6 +324,7 @@ img.avatar {
 
 .btn-group {
   float: right;
+  margin-top: -5px;
 }
 
 .activity {

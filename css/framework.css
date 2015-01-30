@@ -1,20 +1,28 @@
 /* set a max-width for horizontal fluid layout and make it centered */
 
 /* Framework Stylesheet */
-.dash-container {
-  width: 960px;
+
+
+@media (min-width: 992px) {
+  .dash-container {
+    width: 960px;
 
 }
-.shadow-container {
-  width: 970px;
-}
 
-.body-container {
-  width: 940px;
+@media (min-width: 992px) {
+  .shadow-container {
+    width: 970px;
+
 }
+@media (min-width: 992px) {
+  .body-container {
+    width: 940px;
+
+}    
 
 .header {
   width: 100%;
+  padding: 0px;
 }
 
 .header-box {
@@ -144,4 +152,5 @@
 
 .footer {
   width: 100%;
+  padding: 0px;
 }

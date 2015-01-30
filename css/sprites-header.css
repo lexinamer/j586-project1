@@ -1,107 +1,82 @@
-.header-bg, .help, .icon-anayl-hover, .icon-anayl, .icon-cust, .icon-dash-hover, .icon-dash, .icon-mess-hover, .icon-mess, .icon-page-hover, .icon-page, .icon-prom-hover, .icon-prom, .settings, .spacer, .marker, .icon-cust-hover{
+.icon-anayl-hover, .icon-anayl, .icon-cust-hover, .icon-cust, .icon-dash-hover, .icon-dash, .icon-mess-hover, .icon-mess, .icon-page-hover, .icon-page, .icon-prom-hover, .icon-prom, .marker{
 	background: url(../images/sprites-header.png) no-repeat;
-	display: block;
-}
-
-.header-bg{
-	background-position: 0 0;
-	width: 100%;
-	height: 110px;
-	padding: 0px;
-}
-
-.help{
-	background-position: -623px -216px ;
-	width: 20px;
-	height: 20px;
 }
 
 .icon-anayl-hover{
-	background-position: -494px -148px ;
-	width: 90px;
+	background-position: -500px -100px ;
+	width: 60px;
 	height: 66px;
 }
 
 .icon-anayl{
-	background-position: -495px -247px ;
-	width: 90px;
+	background-position: -500px 0;
+	width: 60px;
 	height: 66px;
 }
 
-.icon-cust{
-	background-position: -396px -147px ;
-	width: 90px;
+.icon-cust-hover{
+	background-position: -400px -100px ;
+	width: 62px;
 	height: 64px;
 }
 
+.icon-cust{
+	background-position: -401px 0;
+	width: 62px;
+	height: 64px;
+}
+
+
 .icon-dash-hover{
-	background-position: -298px -247px ;
-	width: 90px;
+	background-position: -300px -100px ;
+	width: 60px;
 	height: 73px;
 }
 
 .icon-dash{
-	background-position: -297px -148px ;
-	width: 90px;
+	background-position: -300px 0;
+	width: 60px;
 	height: 73px;
 }
 
 .icon-mess-hover{
-	background-position: -197px -247px ;
-	width: 90px;
+	background-position: -200px -101px ;
+	width: 60px;
 	height: 65px;
 }
 
 .icon-mess{
-	background-position: -198px -148px ;
-	width: 90px;
+	background-position: -200px 0;
+	width: 60px;
 	height: 65px;
 }
 
 .icon-page-hover{
-	background-position: -99px -248px ;
-	width: 90px;
+	background-position: -100px -101px ;
+	width: 60px;
 	height: 70px;
 }
 
 .icon-page{
-	background-position: -99.9749984741211px -148.9875030517578px ;
-	width: 90px;
+	background-position: -100px 0;
+	width: 60px;
 	height: 70px;
 }
 
 .icon-prom-hover{
-	background-position: 0 -246.97311401367188px ;
-	width: 90px;
+	background-position: 0 -100px ;
+	width: 60px;
 	height: 69px;
 }
 
 .icon-prom{
-	background-position: 0 -149.98947143554688px ;
-	width: 90px;
+	background-position: 0 0;
+	width: 60px;
 	height: 69px;
 }
 
-.settings{
-	background-position: -596px -171px ;
-	width: 20px;
-	height: 20px;
-}
-
-.spacer{
-	background-position: -596px -208px ;
-	width: 1px;
-	height: 30px;
-}
-
 .marker{
-	background-position: -596px -148px ;
+	background-position: -577px 0;
 	width: 40px;
 	height: 10px;
-}
-
-.icon-cust-hover{
-	background-position: -396px -247px ;
-	width: 90px;
-	height: 64px;
 }
