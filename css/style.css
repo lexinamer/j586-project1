@@ -50,14 +50,14 @@ h2 {
 .stream {
   color: #fff;
   font-size: 1.5em;
-  padding-left: 128px;
+  padding-left: 7.5em;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .settings-icon {
-  padding-top: 22px;
+  padding-top: 1.9em;
 }
 
 .center-block {
@@ -65,13 +65,8 @@ h2 {
 
 }
 
-.dash li:hover {
-  background-image: url(icon-dash-hover);
-  background-position: -300px -100px;
-}
-
 .person-btn {
-  width: 60px;
+  width: 5em;
   height: 30px;
   border: 1px solid #dddddd;
   border-radius: 4px;
@@ -422,13 +417,33 @@ span.latin-text {
   width: 100%;
 }
 
-.checkbox {
+.checkbox-style {
   text-align: center;
+  padding-top: 3em;
+  padding-right: 3.5em;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin:-1px 4px 0 0;
+  vertical-align:middle;
+  background:url(../images/body/checkbox.png);
+  cursor:pointer;
+
+}
+
+input[type="checkbox"]:checked + label span {
+  background:url(../images/body/checkmark.png);
 }
 
 .social-check{
-  padding-right: 30px;
-
+  padding-right: 1.3em;
 
 }
 
@@ -442,6 +457,7 @@ span.latin-text {
 .channels-text {
   font-size: 1em;
   color: #cccccc;
+  padding-left: 2em
 
 }
 
