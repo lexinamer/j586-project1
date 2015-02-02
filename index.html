@@ -8,8 +8,8 @@
 
 <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
       <link href="css/framework.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
       <link href="css/sprites-header.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,11 +27,11 @@
 
   <!-- Social Stream Row -->
       <div class="row">
-        <div class="col-xs-8 col-md-8 header-box">
+        <div class="hidden-xs hidden-sm col-md-8 header-box">
           <p class="stream">social stream</p>
         </div>
-        <div class="col-xs-4 col-md-4 header-box">
-          <ul class="list-inline">
+        <div class="col-xs-12 col-md-4 header-box">
+          <ul class="list-inline header">
             <li class="mini">MINI of Raleigh</li>
             <li><a href="#"><img src="images/header/spacer.png" alt="spacer"></a></li>
             <li><a href="#"><img src="images/header/help.png" alt="help"></a></li>
@@ -43,7 +43,7 @@
 
   <!-- Nav Row -->
       <div class="row">
-        <div class="col-xs-12 col-md-12 nav-bg">
+        <div class="hidden-xs hidden-xs col-md-12 menu-bg">
           <ul class="list-inline">
             <li class="icon-dash"><a href="#"></a></li>
             <li class="icon-cust"><a href="#"></a></li>
@@ -56,18 +56,55 @@
         </div>
       </div>
 
-    </div> <!-- Close Header-->
+  <!-- Mobile Nav -->
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 hidden-md hidden-lg menu-mobile">
+          <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Customer</a></li>
+                    <li><a href="#">Message</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Create a Page</a></li>
+                    <li><a href="#">Analytics</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div>
+          </nav>
+        </div>
+          <div class="col-xs-8 col-sm-8 hidden-md hidden-lg search-mobile">
+          <div class="searchinput">
+            <input type="text" class="form-control">
+            <span class="glyphicon glyphicon-search">
+            </span>
+        </div>
+        </div>
+    </div>
 
+
+    </div> <!-- Close Header-->
 
 <!-- Body  -->
 
   <!-- Dashboard Container and Row -->
     <div class="container dash-container">
       <div class="row dash">
-        <div class="col-xs-6 col-md-8 dashboard-box">
+        <div class="hidden-xs col-md-8 dashboard-box">
             <p class="dashboard">Dashboard</p>
         </div>
-        <div class="col-xs-6 col-md-4 search-box">
+        <div class="hidden-xs col-md-4 search-box">
           <div class="searchinput">
             <input type="text" class="form-control">
               <span class="glyphicon glyphicon-search">
@@ -91,10 +128,10 @@
 
   <!-- Announcement Box -->
       <div class="row">
-        <div class="col-xs-4 col-md-2 announcement-box">
+        <div class="hidden-xs col-md-2 announcement-box">
           <p class="announcement">Announcements</p>
         </div>
-        <div class="col-xs-8 col-md-9 lorem-box">
+        <div class="col-xs-12 col-md-9 lorem-box">
           <p class="lorem">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
         </div>
         <div class="hidden-xs col-md-1 arrows">
@@ -271,7 +308,7 @@
 
   <!-- Did You Know Box -->
           <div class="row">
-            <div class="col-xs-12 col-md-12 know-box">
+            <div class="col-xs-12 col-md-12 col-lg-12 know-box">
                 <div class="col-xs-12 col-md-12 know-centered">
                   <a href="#"><img src="images/body/semicircle-left.png" class="tab-left" alt="button"></a>
                   <a href="#"><img src="images/body/arrow-left-orange.png" class="arrow-left" alt="button"></a>
@@ -284,6 +321,8 @@
                 </div>
             </div>
           </div>
+
+
 
         </div> <!-- Close Body Right-->
       </div> <!-- Close Main Body Row-->
@@ -309,7 +348,7 @@
 <!-- Footer -->
     <div class="container footer">
       <div class="row">
-        <div class="col-xs-6 col-md-3 bottlinks">
+        <div class="col-xs-5 col-md-3 bottlinks">
           <table class="footer-table">
             <tr>
               <td><a href="#" class="footer-links">Tutorials</a></td>
@@ -318,11 +357,11 @@
             </tr>
           </table>
         </div>
-        <div class="col-xs-6 col-md-6 cooper">
+        <div class="hidden-xs col-md-6 cooper">
           <h4><a href="#">Ariel Winter</a> <span>likes your</span><a href="#"> Win a Cooper Sweepstakes</a> <span>Promotion</span></h4>
           <a href="#"><img src="images/body/pullup.png" class="pullup" alt="pullup"></a>
         </div>
-        <div class="col-xs-6 col-md-1 footinfo">
+        <div class="col-xs-3 col-md-1 footinfo">
           <a href=""><img src="images/footer/avatar-footer.png" alt="avatar" class="avatar"></a>
           <h4 class="logout"><a href="#">Logout</a></h4>
         </div>
