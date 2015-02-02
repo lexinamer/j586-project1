@@ -2,22 +2,19 @@
 
 /* Framework Stylesheet */
 
-
 @media (min-width: 992px) {
   .dash-container {
     width: 960px;
-
 }
 
 @media (min-width: 992px) {
   .shadow-container {
     width: 970px;
-
 }
+
 @media (min-width: 992px) {
   .body-container {
     width: 940px;
-
 }
 
 .header {
